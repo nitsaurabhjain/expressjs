@@ -1,0 +1,28 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "express js application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitsaurabhjain/expressjs.git"
+  },
+  "author": "nitsaurabhjain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitsaurabhjain/expressjs/issues"
+  },
+  "homepage": "https://github.com/nitsaurabhjain/expressjs#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
