@@ -188,6 +188,12 @@ next(); //or next(err);
 }
 app.use(logger);
 ```
+#### __dirname vs process.cwd()
+* $ node ../app.js
+* __dirname (the directory of the script file): /tmp/myapp
+* process.cwd() (the directory from which the script file was called): /tmp/myapp/subdir
+
+
 ### API in express or nodejs
 
 **Modules are singleton** ie when we load a module in multiple files, the files gets only ref of only one instance of the module
